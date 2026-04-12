@@ -18,10 +18,4 @@ Application Android en Java affichant une liste de pizzas avec image, prix et du
 * ListView + Adapter
 * DAO + Service
 
-## ▶️ Lancer le projet
-
-```bash
-git clone https://github.com/ton-username/PizzaRecipes.git
-```
-
 ## DEMO
