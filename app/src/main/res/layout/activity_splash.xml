@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <!-- Logo pizza centré -->
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@mipmap/pizza1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"/>
+
+    <!-- Titre de l'app -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza Recipes"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"/>
+
+    <!-- Sous-titre -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make your Pizza"
+        android:textColor="#B2EBF2"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"/>
+
+    <!-- Indicateur de chargement -->
+    <ProgressBar
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="80dp"
+        android:indeterminateTint="#B2EBF2"/>
+</FrameLayout>

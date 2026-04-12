@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleur principale : rose chaud -->
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#C2185B</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Fond des cartes -->
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="listBackground">#F5F5F5</color>
+
+    <!-- Texte -->
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+</resources>
